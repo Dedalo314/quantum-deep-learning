@@ -1,0 +1,15 @@
+dataset:
+  dataset_class: qdl.datasets.mnist_generation.MNISTGenerationDataset
+  block_size: 392
+  num_classes: 1
+  digits_of_interest: [0]
+  fashion: false
+  train_valid_split_ratio: [0.9, 0.1]
+  binarize: true
+train:
+  batch_size: 256
+  shuffle: true
+val:
+  batch_size: 8
+test:
+  batch_size: 8

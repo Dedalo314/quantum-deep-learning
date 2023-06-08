@@ -1,0 +1,4 @@
+defaults:
+  - data: "???"
+  - model: "???"
+  - trainer: trainer-gpu

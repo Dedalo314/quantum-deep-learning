@@ -1,0 +1,9 @@
+max_epochs: 30
+accelerator: gpu
+devices: -1
+default_root_dir: "???"
+gradient_clip_val: 1.0
+log_every_n_steps: 5
+limit_val_batches: 1
+precision: 32
+num_sanity_val_steps: 2

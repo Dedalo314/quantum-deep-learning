@@ -1,0 +1,14 @@
+model_class: qdl.models.generators.qlstm_generator.QLSTMGenerator
+last_linear_layer:
+  output_vocab_size: 2 # binary images
+input:
+  input_vocab_size: 3 # binary images + 1 class
+lstm:
+  hidden_dim: 4
+  embedding_dim: 4
+is_quantum: true
+lr: 1e-4
+weight_decay: 1e-1
+beta1: 0.9
+beta2: 0.95
+block_size: 28
