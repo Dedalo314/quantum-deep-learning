@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qdl"
+version = "0.0.1"
+authors = [
+  { name="Daedalus Taitale", email="daedalus314@protonmail.com" },
+]
+description = "Quantum Deep Learning package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Dedalo314/quantum-deep-learning"
+"Bug Tracker" = "https://github.com/Dedalo314/quantum-deep-learning/issues"
